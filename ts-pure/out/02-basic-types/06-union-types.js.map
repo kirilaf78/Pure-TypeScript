@@ -1,0 +1,1 @@
+{"version":3,"file":"06-union-types.js","sourceRoot":"","sources":["../../02-basic-types/06-union-types.ts"],"names":[],"mappings":"AAAA,IAAI,MAAuB,CAAA;AAE3B,MAAM,GAAG,EAAE,CAAA;AACX,MAAM,GAAG,QAAQ,CAAA;AAEjB,SAAS,WAAW,CAAC,KAAsB;IACvC,OAAO,CAAC,GAAG,CAAC,gBAAgB,KAAK,EAAE,CAAC,CAAC;AAEzC,CAAC;AAED,WAAW,CAAC,CAAC,CAAC,CAAA"}
