@@ -1,24 +1,8 @@
-PS D:\Projects\TS\ts-pure\02-basic-types> npm run start
-
-> ts@1.0.0 start
-> node --import=data:text/javascript,import{register}from'node:module';import{pathToFileURL}from'node:url';register('ts-node/esm',pathToFileURL('./')); 04-any-unknown.ts
-
-(node:8424) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
-(Use `node --trace-deprecation ...` to show where the warning was created)
-
-node:internal/modules/run_main:123
-    triggerUncaughtException(
-    ^
-Error: Cannot find module 'D:\Projects\TS\ts-pure\04-any-unknown.ts' imported from D:\Projects\TS\ts-pure\
-    at finalizeResolution (D:\Projects\TS\ts-pure\node_modules\ts-node\dist-raw\node-internal-modules-esm-resolve.js:366:11)
-    at moduleResolve (D:\Projects\TS\ts-pure\node_modules\ts-node\dist-raw\node-internal-modules-esm-resolve.js:801:10)   
-    at Object.defaultResolve (D:\Projects\TS\ts-pure\node_modules\ts-node\dist-raw\node-internal-modules-esm-resolve.js:912:11)
-    at D:\Projects\TS\ts-pure\node_modules\ts-node\src\esm.ts:218:35
-    at entrypointFallback (D:\Projects\TS\ts-pure\node_modules\ts-node\src\esm.ts:168:34)
-    at D:\Projects\TS\ts-pure\node_modules\ts-node\src\esm.ts:217:14
-    at addShortCircuitFlag (D:\Projects\TS\ts-pure\node_modules\ts-node\src\esm.ts:409:21)
-    at resolve (D:\Projects\TS\ts-pure\node_modules\ts-node\src\esm.ts:197:12)
-    at nextResolve (node:internal/modules/esm/hooks:748:28)
-    at Hooks.resolve (node:internal/modules/esm/hooks:240:30)
-
-Node.js v22.18.0
+PS C:\Users\kiril\Pure-TypeScript\ts-pure> npm run start
+npm : File C:\Users\kiril\Downloads\nodeJs\node-v24.12.0-win-x64\npm.ps1 cannot be loaded because running scripts is disabled on 
+this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ npm run start
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess

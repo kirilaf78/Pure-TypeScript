@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node --import=data:text/javascript,import{register}from'node:module';import{pathToFileURL}from'node:url';register('ts-node/esm',pathToFileURL('./')); 03-functions-and-interfaces/05-readOnly-property.ts"
+    "start": "node --import=data:text/javascript,import{register}from'node:module';import{pathToFileURL}from'node:url';register('ts-node/esm',pathToFileURL('./')); 05-generics/03-generic-with-constraints.ts"
   },
   "devDependencies": {
     "@swc/core": "^1.15.7",
