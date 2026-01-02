@@ -24,7 +24,8 @@ class Article {
     readonly id: number;
     title: string
     constructor(id: number, title: string) {
-        
+        this.id = id
+        this.title = title
     }
 }
 const article = new Article(1, 'TypeScript');
