@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node --import=data:text/javascript,import{register}from'node:module';import{pathToFileURL}from'node:url';register('ts-node/esm',pathToFileURL('./')); 06-advance-types/01-utility-types.ts"
+    "start": "node --import=data:text/javascript,import{register}from'node:module';import{pathToFileURL}from'node:url';register('ts-node/esm',pathToFileURL('./')); 06-advance-types/03-conditional-types.ts"
   },
   "devDependencies": {
     "@swc/core": "^1.15.7",
